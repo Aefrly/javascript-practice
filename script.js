@@ -1,4 +1,6 @@
 console.log("Hello World!");
+
+//Resource 1
 let team = "Chicago Sky";
 let jersey = 88;
 let hasWonChampionship = false;
