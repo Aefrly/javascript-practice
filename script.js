@@ -4,11 +4,13 @@ let jersey = 88;
 let hasWonChampionship = false;
 let stadiumLocation = null;
 let nextGame;
+const sport = "basketball";
 console.log(team);
 console.log(jersey);
 console.log(hasWonChampionship);
 console.log(stadiumLocation);
 console.log(nextGame);
+console.log(sport);
 
 let player = {
     name: "Kahleah Copper",
