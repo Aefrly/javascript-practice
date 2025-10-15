@@ -19,3 +19,4 @@ let player = {
 console.log(player.name); //Kahleah Copper
 player.pointsPerGame = 19.2;
 console.log(player.pointsPerGame); //19.2
+player.isStarter = true;
