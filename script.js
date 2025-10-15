@@ -1,1 +1,11 @@
 console.log("Hello World!");
+let team = "Sky";
+let jersey = 88;
+let hasWonChampionship = false;
+let stadiumLocation = null;
+let nextGame;
+console.log(team);
+console.log(jersey);
+console.log(hasWonChampionship);
+console.log(stadiumLocation);
+console.log(nextGame);
