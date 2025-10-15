@@ -1,5 +1,5 @@
 console.log("Hello World!");
-let team = "Sky";
+let team = "Chicago Sky";
 let jersey = 88;
 let hasWonChampionship = false;
 let stadiumLocation = null;
