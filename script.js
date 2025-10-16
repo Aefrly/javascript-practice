@@ -31,7 +31,7 @@ console.log(player.numberOfGames); //254
 let emojis = ["🥦", "🍨", "🍫", "🥛"];
 console.log(emojis); //["🥦", "🍨", "🍫", "🥛"]
 
-emojis[2] = "🧀"; //Replaces 🍨 with 🧀
+emojis[2] = "🧀"; //Replaces 🍫 with 🧀
 console.log(emojis); //["🥦", "🧀", "🍫", "🥛"]
 
 emojis.push("🍗");
