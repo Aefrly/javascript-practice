@@ -44,3 +44,69 @@ console.log(emojis.length); //4
 console.log(emojis); //["🥦", "🧀", "🍫", "🥛"]
 
 //Resource 3
+function greet(name) {
+    console.log("Hello, " + name);
+}
+greet("Jordan"); //Hello, Jordan
+
+function cheer(team, number) {
+    return "Go " + team + "! We're number " + number + "!";
+}
+console.log(cheer("Sky", 1)); //Go Sky! We're number 1!
+
+let score = 89;
+
+if(score >= 90) {
+    console.log("You got an A!");
+} else if (score >= 80) {
+    console.log("You got a B!");
+} else {
+    console.log("Keep studying!");
+}
+
+let name = "John";
+
+if (name === "John") {
+    console.log("Hi John!");
+} else {
+    console.log("You're not John. . .");
+}
+
+for (let i = 1; i <= 5; i++) {
+    console.log("Round " + i);
+}
+//Output:
+//Round 1
+//Round 2
+//Round 3
+//Round 4
+//Round 5
+
+let sports = ["Basketball", "Soccer", "Tennis"];
+for (let i = 0; i < sports.length; i++) {
+  console.log(sports[i]);
+}
+// Output:
+// Basketball
+// Soccer
+// Tennis 
+
+function rateSong(songName, rating) {
+    if (rating === 1 || rating === 2) {
+        return songName + " is a bad song.";
+    } else if (rating === 3 || rating === 4) {
+        return songName + " is a good song.";
+    } else {
+        return songName + " is an amazing song!";
+    }
+}
+
+let mySongs = ["Bang!", "The Dog Song", "Karma"]
+
+for (let i = 0; i < mySongs.length; i++) {
+    console.log(mySongs[i] + " is a jam!")
+}
+
+console.log(rateSong("Bang!", 5)); //Bang! is an amazing song!
+console.log(rateSong("The Dog Song", 2)); //The Dog Song is a bad song!
+console.log(rateSong("Karma", 4)); //Karma is a good song!
