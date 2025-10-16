@@ -42,3 +42,5 @@ console.log(emojis); //["🥦", "🧀", "🍫", "🥛"]
 
 console.log(emojis.length); //4
 console.log(emojis); //["🥦", "🧀", "🍫", "🥛"]
+
+//Resource 3
